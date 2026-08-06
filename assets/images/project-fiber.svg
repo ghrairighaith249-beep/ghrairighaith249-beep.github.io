@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bgF" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1530"/>
+      <stop offset="1" stop-color="#070b18"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff5d6c"/>
+      <stop offset="0.5" stop-color="#34e0a1"/>
+      <stop offset="1" stop-color="#2dd4f5"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#bgF)"/>
+  <g opacity="0.15" stroke="#2dd4f5">
+    <path d="M0 60H800M0 140H800M0 220H800M0 300H800M0 380H800M0 460H800"/>
+  </g>
+  <!-- enclosure -->
+  <rect x="230" y="150" width="340" height="210" rx="18" fill="#0f1b3a" stroke="#2dd4f5" stroke-width="2"/>
+  <rect x="258" y="178" width="140" height="90" rx="6" fill="#050810" stroke="#3a4a78"/>
+  <text x="328" y="228" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13" fill="#34e0a1">FIBRE OK</text>
+  <circle cx="470" cy="205" r="16" fill="#34e0a1" opacity="0.85"/>
+  <circle cx="470" cy="205" r="26" fill="none" stroke="#34e0a1" opacity="0.4"/>
+  <rect x="258" y="288" width="120" height="34" rx="8" fill="none" stroke="#2dd4f5" stroke-width="2"/>
+  <text x="318" y="310" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="12" fill="#2dd4f5">TESTER ETAT</text>
+
+  <!-- fiber cable in -->
+  <path d="M40 255 C 130 255, 150 255, 230 255" stroke="url(#beam)" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="40" cy="255" r="10" fill="#1c2a4d" stroke="#2dd4f5"/>
+  <path d="M570 255 C 650 255, 670 255, 760 255" stroke="#3a4a78" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <circle cx="760" cy="255" r="10" fill="#1c2a4d" stroke="#2dd4f5"/>
+
+  <text x="400" y="410" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="13" letter-spacing="2" fill="#8f9ac2">ESP32 · FEASA · MAX3232 · TFT SPI · MQTT</text>
+</svg>

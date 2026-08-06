@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2dd4f5"/>
+      <stop offset="1" stop-color="#7c5cff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="42%" r="65%">
+      <stop offset="0" stop-color="#132043"/>
+      <stop offset="1" stop-color="#0a0f20"/>
+    </radialGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#1c2a4d" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <polygon points="200,18 354,109 354,291 200,382 46,291 46,109" fill="url(#glow)"/>
+  <polygon points="200,18 354,109 354,291 200,382 46,291 46,109" fill="url(#grid)" opacity="0.5"/>
+  <polygon points="200,18 354,109 354,291 200,382 46,291 46,109" fill="none" stroke="url(#ring)" stroke-width="3"/>
+  <polygon points="200,42 332,120 332,280 200,358 68,280 68,120" fill="none" stroke="#2dd4f5" stroke-width="1" opacity="0.35"/>
+
+  <!-- traces -->
+  <path d="M200 18 V-10 M354 109 H386 M354 291 H386 M200 382 V410 M46 291 H14 M46 109 H14" stroke="#2dd4f5" stroke-width="2" opacity="0.6"/>
+  <circle cx="200" cy="18" r="4" fill="#2dd4f5"/>
+  <circle cx="354" cy="109" r="4" fill="#2dd4f5"/>
+  <circle cx="354" cy="291" r="4" fill="#2dd4f5"/>
+  <circle cx="200" cy="382" r="4" fill="#2dd4f5"/>
+  <circle cx="46" cy="291" r="4" fill="#2dd4f5"/>
+  <circle cx="46" cy="109" r="4" fill="#2dd4f5"/>
+
+  <text x="200" y="235" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="130" font-weight="600" fill="#eef2fb">GG</text>
+</svg>

@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ghaith Ghrairi — Embedded Systems &amp; IoT Engineer</title>
+
+<!-- ============================== SEO ============================== -->
+<meta name="description" content="Portfolio of Ghaith Ghrairi, embedded systems &amp; IoT engineering student in Tunisia. STM32, ESP32, PCB design, sensors, and full-stack IoT projects including a Sagemcom internship building an intelligent optical fiber tester.">
+<meta name="keywords" content="Ghaith Ghrairi, embedded systems engineer, IoT developer, ESP32, ESP8266, STM32, Arduino, PCB design, embedded C, Tunisia, ISET Radès, Sagemcom">
+<meta name="author" content="Ghaith Ghrairi">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://ghaithghrairi.github.io/portfolio/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Ghaith Ghrairi — Embedded Systems & IoT Engineer">
+<meta property="og:description" content="Embedded systems &amp; IoT portfolio — ESP32, STM32, PCB design, and industrial IoT projects, including a Sagemcom internship building an intelligent optical fiber tester.">
+<meta property="og:image" content="assets/images/project-fiber.svg">
+<meta property="og:url" content="https://ghaithghrairi.github.io/portfolio/">
+<meta property="og:locale" content="en_US">
+
+<!-- Twitter card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ghaith Ghrairi — Embedded Systems & IoT Engineer">
+<meta name="twitter:description" content="Embedded systems &amp; IoT portfolio — ESP32, STM32, PCB design, and industrial IoT projects.">
+<meta name="twitter:image" content="assets/images/project-fiber.svg">
+
+<link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+<link rel="theme-color" content="#070b18">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============================== LOADER ============================== -->
+<div id="loader" aria-hidden="true">
+  <div class="loader-mark">
+    <svg viewBox="0 0 56 56" fill="none">
+      <circle cx="28" cy="28" r="24" stroke="#1c2a4d" stroke-width="3"/>
+      <circle cx="28" cy="28" r="24" stroke="#2dd4f5" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+  </div>
+  <div class="loader-text">booting<span>_</span>system</div>
+</div>
+
+<!-- ============================== NAVBAR ============================== -->
+<header id="navbar">
+  <div class="container nav-inner">
+    <a href="#hero" class="logo" aria-label="Ghaith Ghrairi — home">
+      <svg class="logo-mark" viewBox="0 0 64 64" fill="none"><polygon points="32,10 50,21 50,43 32,54 14,43 14,21" fill="none" stroke="#2dd4f5" stroke-width="3"/><circle cx="32" cy="32" r="7" fill="#2dd4f5"/></svg>
+      <span>Ghaith Ghrairi<span class="logo-tag">EMBEDDED · IOT ENGINEER</span></span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about" data-nav="about">About</a>
+      <a href="#skills" data-nav="skills">Skills</a>
+      <a href="#journey" data-nav="journey">Journey</a>
+      <a href="#projects" data-nav="projects">Projects</a>
+      <a href="#contact" data-nav="contact">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="assets/cv.pdf" download class="btn btn-primary">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+        Download CV
+      </a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===================== SIDE DOT-NAV (PCB via trace) ===================== -->
+<nav id="side-nav" aria-hidden="true">
+  <div class="via" data-target="hero" data-label="HERO"></div>
+  <div class="trace"></div>
+  <div class="via" data-target="about" data-label="ABOUT"></div>
+  <div class="trace"></div>
+  <div class="via" data-target="skills" data-label="SKILLS"></div>
+  <div class="trace"></div>
+  <div class="via" data-target="journey" data-label="JOURNEY"></div>
+  <div class="trace"></div>
+  <div class="via" data-target="projects" data-label="PROJECTS"></div>
+  <div class="trace"></div>
+  <div class="via" data-target="contact" data-label="CONTACT"></div>
+</nav>
+
+<main>
+
+<!-- ============================== HERO ============================== -->
+<section id="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="hero-eyebrow"><span class="status-dot"></span> AVAILABLE FOR OPPORTUNITIES · TUNISIA</div>
+      <h1 class="hero-name">Ghaith<br>Ghrairi</h1>
+      <div class="hero-roles"><span id="typedRole">Embedded Systems Engineer</span><span class="cursor"></span></div>
+      <p class="hero-desc">Embedded systems &amp; IoT engineering student building instrumentation-grade hardware — from PCB schematic to firmware to cloud dashboard. Currently completing a systems-embedded &amp; mobile (SEM) degree at ISET Radès, following a production-floor internship at Sagemcom.</p>
+
+      <div class="hero-actions">
+        <a href="assets/cv.pdf" download class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+          Download CV
+        </a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+        <a href="#projects" class="btn btn-ghost">
+          View Projects
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+        </a>
+      </div>
+
+      <div class="hero-readout">
+        <span><b>LOCATION</b> Boumhal, Ben Arous, TN</span>
+        <span><b>FOCUS</b> Embedded · IoT · PCB</span>
+        <span><b>LANGS</b> AR / FR / EN</span>
+      </div>
+    </div>
+
+    <div class="hero-visual">
+      <div class="hero-badge-wrap">
+        <img src="assets/images/avatar-badge.svg" alt="Ghaith Ghrairi monogram badge" width="360" height="360">
+        <div class="orbit-chip glass c1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg> ESP32 / STM32</div>
+        <div class="orbit-chip glass c2"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/></svg> IoT · MQTT</div>
+        <div class="orbit-chip glass c3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg> PCB Design</div>
+      </div>
+    </div>
+  </div>
+
+  <a href="#about" class="scroll-cue"><span>SCROLL</span><span class="line"></span></a>
+</section>
+
+<!-- ============================== ABOUT ============================== -->
+<section id="about">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-copy reveal">
+        <span class="eyebrow">01 // About</span>
+        <h2>Building systems that sense, decide, and act.</h2>
+        <p style="margin-top:22px">I'm <strong>Ghaith Ghrairi</strong>, an embedded systems and IoT engineering student at the <strong>Rades Higher Institute of Technological Studies (ISET Radès)</strong>, currently completing a Bachelor's degree focused on Information Systems Technology / Embedded Systems (parcours <strong>Systèmes Embarqués et Mobiles</strong>).</p>
+        <p>My work sits at the intersection of hardware and software: designing schematics and routing PCBs, writing embedded C for <strong>STM32</strong>, <strong>ESP32</strong>, <strong>ESP8266</strong> and <strong>Arduino</strong> platforms, wiring up sensors and actuators, and connecting the whole thing to the cloud over WiFi, MQTT and REST.</p>
+        <p>I recently completed my end-of-studies internship at <strong>Sagemcom Ezzahra</strong>, where I co-designed an embedded instrument — from PCB to enclosure to firmware — now used to diagnose optical-fiber test equipment on a real production line.</p>
+        <div class="about-focus">
+          <span class="tag">Embedded Systems</span><span class="tag">IoT</span><span class="tag">Microcontrollers</span>
+          <span class="tag">Electronics</span><span class="tag">C Programming</span><span class="tag">STM32</span>
+          <span class="tag">ESP32 / ESP8266</span><span class="tag">Arduino</span><span class="tag">PCB Design</span>
+          <span class="tag">Automation</span><span class="tag">Sensors</span><span class="tag">Wireless Communication</span>
+        </div>
+      </div>
+
+      <div class="reveal reveal-delay-1">
+        <div class="fact-card glass">
+          <div class="fact-label">Education</div>
+          <div class="fact-value">Bachelor's — Information Systems Technology / Embedded Systems</div>
+          <div class="fact-sub">ISET Radès · 2023 – 2026</div>
+        </div>
+        <div class="fact-card glass">
+          <div class="fact-label">Internship</div>
+          <div class="fact-value">Embedded Systems Intern — Sagemcom Ezzahra</div>
+          <div class="fact-sub">Optical fiber tester · Production floor</div>
+        </div>
+        <div class="fact-card glass">
+          <div class="fact-label">Languages</div>
+          <div class="fact-value">Arabic (native) · French (fluent) · English (intermediate)</div>
+        </div>
+        <div class="fact-card glass">
+          <div class="fact-label">Based in</div>
+          <div class="fact-value">Boumhal, Ben Arous, Tunisia</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== SKILLS ============================== -->
+<section id="skills">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">02 // Skills</span>
+      <h2>Toolkit</h2>
+      <p>From bare-metal firmware to the dashboard that visualizes it — the stack I build with most often.</p>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card glass reveal">
+        <div class="skill-card-head">
+          <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
+          <h3>Programming</h3>
+        </div>
+        <div class="skill-row"><div class="skill-row-top"><span>C / C++</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>Python</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>Java</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>HTML / CSS / JavaScript</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>SQL</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div></div></div>
+      </div>
+
+      <div class="skill-card glass reveal reveal-delay-1">
+        <div class="skill-card-head">
+          <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg></div>
+          <h3>Embedded</h3>
+        </div>
+        <div class="skill-row"><div class="skill-row-top"><span>ESP32 / ESP8266</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>STM32</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>Arduino / AVR</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>UART · SPI · I2C</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>PWM · ADC · Timers · Interrupts</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+      </div>
+
+      <div class="skill-card glass reveal reveal-delay-2">
+        <div class="skill-card-head">
+          <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 3 14h9l-1 8 10-12h-9l1-8z"/></svg></div>
+          <h3>Electronics</h3>
+        </div>
+        <div class="skill-row"><div class="skill-row-top"><span>PCB Design &amp; Routing</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>EasyEDA / KiCad</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>Proteus (simulation)</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>Oscilloscope / Multimeter</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>Soldering &amp; Hardware Debug</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div></div>
+      </div>
+
+      <div class="skill-card glass reveal">
+        <div class="skill-card-head">
+          <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.55a11 11 0 0 1 14.08 0M1.42 9a16 16 0 0 1 21.16 0M8.53 16.11a6 6 0 0 1 6.95 0M12 20h.01"/></svg></div>
+          <h3>IoT &amp; Connectivity</h3>
+        </div>
+        <div class="skill-row"><div class="skill-row-top"><span>MQTT (HiveMQ)</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>WiFi / HTTP / REST</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>Firebase Realtime DB</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>Node-RED Dashboards</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>Bluetooth / ThingSpeak / Blynk</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div></div></div>
+      </div>
+
+      <div class="skill-card glass reveal reveal-delay-1">
+        <div class="skill-card-head">
+          <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg></div>
+          <h3>Software &amp; Tools</h3>
+        </div>
+        <div class="skill-row"><div class="skill-row-top"><span>PlatformIO / STM32CubeIDE</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>CubeMX</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>VS Code / Git / GitHub</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>Onshape (3D / enclosure design)</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>MATLAB</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div></div></div>
+      </div>
+
+      <div class="skill-card glass reveal reveal-delay-2">
+        <div class="skill-card-head">
+          <div class="skill-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+          <h3>Beyond the board</h3>
+        </div>
+        <div class="skill-row"><div class="skill-row-top"><span>Mobile Dev (Android · Flutter)</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>3D Modeling &amp; Printing</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>WordPress Development</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>Project Management</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+        <div class="skill-row"><div class="skill-row-top"><span>Graphic Design (Photoshop / AE)</span><div class="skill-dots"><i class="on"></i><i class="on"></i><i class="on"></i><i></i><i></i></div></div></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================== JOURNEY ============================== -->
+<section id="journey">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">03 // Journey</span>
+      <h2>Education &amp; Experience</h2>
+      <p>The path from classroom to production floor.</p>
+    </div>
+
+    <div class="timeline">
+
+      <div class="tl-item is-experience reveal">
+        <div class="tl-via"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></div>
+        <div class="tl-card glass">
+          <span class="tl-date">2025 – 2026 · END-OF-STUDIES INTERNSHIP</span>
+          <h3 class="tl-title">Embedded Systems Intern</h3>
+          <div class="tl-org">Sagemcom Ezzahra — Industrial IoT / Broadband terminals manufacturer</div>
+          <p class="tl-desc">Co-designed and built an intelligent optical-fiber tester for LED functional-test benches: PCB, firmware, touch UI, and cloud dashboard, from problem definition to a validated working prototype. Supervised by M. Habib Smei &amp; M. Faouzi Maddouri (ISET Radès) and M. Anis Mdaini (Sagemcom).</p>
+          <div class="tl-tags"><span class="tag">ESP32</span><span class="tag">PCB Design</span><span class="tag">MQTT</span><span class="tag">Firebase</span></div>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-via"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg></div>
+        <div class="tl-card glass">
+          <span class="tl-date">2023 – 2026</span>
+          <h3 class="tl-title">Bachelor's Degree — Information Systems Technology / Embedded Systems</h3>
+          <div class="tl-org">Rades Higher Institute of Technological Studies (ISET Radès) — parcours Systèmes Embarqués et Mobiles</div>
+          <p class="tl-desc">Coursework and project work centered on embedded C, microcontroller architecture, electronics, and IoT system design.</p>
+        </div>
+      </div>
+
+      <div class="tl-item reveal">
+        <div class="tl-via"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10 12 5 2 10l10 5 10-5Z"/><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg></div>
+        <div class="tl-card glass">
+          <span class="tl-date">2023</span>
+          <h3 class="tl-title">Baccalauréat — Computer Science</h3>
+          <div class="tl-org">High School Cité Essalem, Boumhal</div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Certifications -->
+    <div class="section-head reveal" style="margin-top:76px; margin-bottom:0">
+      <span class="eyebrow">Licenses &amp; Certifications</span>
+    </div>
+    <div class="cert-row">
+      <div class="cert-card glass reveal">
+        <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg></div>
+        <div>
+          <div class="cert-name">Microsoft Office Specialist — Word 2016 Expert</div>
+          <div class="cert-meta">Certiport (Pearson VUE) · Nov 2023 · ID 90087474</div>
+        </div>
+      </div>
+      <div class="cert-card glass reveal reveal-delay-1">
+        <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg></div>
+        <div>
+          <div class="cert-name">Adobe Photoshop — Graphic Design Certification</div>
+          <div class="cert-meta">Issued September 2025</div>
+        </div>
+      </div>
+      <div class="cert-card glass reveal reveal-delay-2">
+        <div class="cert-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.5 13.5 17 22l-5-3-5 3 1.5-8.5"/></svg></div>
+        <div>
+          <div class="cert-name">Adobe After Effects — Motion Design Certification</div>
+          <div class="cert-meta">Issued September 2025</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================== PROJECTS ============================== -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">04 // Projects</span>
+      <h2>Selected Work</h2>
+      <p>Hardware-first builds — from problem definition to a working, tested prototype.</p>
+    </div>
+
+    <!-- Featured project -->
+    <div class="project-featured glass reveal">
+      <div class="pf-media">
+        <img src="assets/images/project-fiber.svg" alt="Intelligent optical fiber tester — ESP32-based embedded instrument" loading="lazy">
+        <span class="status-pill pf-featured-badge glass"><span class="status-dot"></span> FEATURED · SAGEMCOM INTERNSHIP</span>
+      </div>
+      <div class="pf-body">
+        <span class="tl-date">FULL CASE STUDY</span>
+        <h3>Intelligent Optical Fiber Tester</h3>
+        <div class="tl-org">Sagemcom Ezzahra · End-of-studies internship · with Ismail Jabri</div>
+        <p class="pf-desc">An ESP32-based embedded instrument that diagnoses worn or defective optical fibers on industrial LED test benches — replacing guesswork with an automatic RGB-intensity comparison, a touch UI, and a live cloud dashboard.</p>
+        <div class="pf-tags">
+          <span class="tag">ESP32</span><span class="tag">Custom PCB</span><span class="tag">TFT Touch UI</span>
+          <span class="tag">MQTT</span><span class="tag">Firebase</span><span class="tag">Node-RED</span><span class="tag">3D-printed enclosure</span>
+        </div>
+        <div class="pf-actions">
+          <button class="btn btn-primary" data-modal-open="fiber">
+            View Full Case Study
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+          </button>
+          <a href="#" class="btn btn-ghost" data-placeholder-link title="Add your repository link">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.06 11.06 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.53 10.53 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Secondary projects -->
+    <div class="projects-grid">
+
+      <article class="project-card glass reveal">
+        <div class="pc-media">
+          <img src="assets/images/project-smarthome.svg" alt="Smart Home Automation System illustration" loading="lazy">
+        </div>
+        <div class="pc-body">
+          <span class="tl-date">PROJECT OVERVIEW</span>
+          <h3>Smart Home Automation System</h3>
+          <p>A WiFi-connected ESP8266/ESP32 controller that automates door access, monitors temperature/humidity/gas, and raises alarms on motion or gas leaks.</p>
+          <div class="pc-tags"><span class="tag">ESP8266/ESP32</span><span class="tag">DHT11</span><span class="tag">MQ Gas Sensor</span><span class="tag">PIR</span></div>
+          <div class="pc-actions">
+            <button class="btn btn-ghost" data-modal-open="smarthome">Details</button>
+            <a href="#" class="btn btn-ghost" data-placeholder-link title="Add your repository link">Code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card glass reveal reveal-delay-1">
+        <div class="pc-media">
+          <img src="assets/images/project-rfid.svg" alt="RFID Access Control System illustration" loading="lazy">
+        </div>
+        <div class="pc-body">
+          <span class="tl-date">PROJECT OVERVIEW</span>
+          <h3>RFID Access Control System</h3>
+          <p>An RFID-authenticated access terminal with presence sensing, servo-actuated lock, and real-time LCD/buzzer/LED feedback.</p>
+          <div class="pc-tags"><span class="tag">RFID</span><span class="tag">Ultrasonic</span><span class="tag">LCD</span><span class="tag">Servo</span></div>
+          <div class="pc-actions">
+            <button class="btn btn-ghost" data-modal-open="rfid">Details</button>
+            <a href="#" class="btn btn-ghost" data-placeholder-link title="Add your repository link">Code</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="project-more-note glass reveal">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+      <span>A fourth project — <strong style="color:var(--white)">Smart Monitoring System</strong> — is being written up and will be added here once the case study is ready.</span>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================== CONTACT ============================== -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div class="reveal">
+        <span class="eyebrow">05 // Contact</span>
+        <h2>Let's build something.</h2>
+        <p style="color:var(--muted); margin-top:16px">Open to embedded systems, IoT, and electronics roles &amp; internships. Reach out — I usually reply within a day.</p>
+
+        <div class="contact-list">
+          <a class="contact-item glass" href="mailto:ghrairighaith249@gmail.com">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6 12 13 2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></div>
+            <div><div class="c-label">Email</div><div class="c-value">ghrairighaith249@gmail.com</div></div>
+          </a>
+          <a class="contact-item glass" href="tel:+21656917776">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+            <div><div class="c-label">Phone</div><div class="c-value">+216 56 917 776</div></div>
+          </a>
+          <div class="contact-item glass">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+            <div><div class="c-label">Location</div><div class="c-value">Boumhal, Ben Arous, Tunisia</div></div>
+          </div>
+          <a class="contact-item glass" href="#" data-placeholder-link title="Add your LinkedIn URL">
+            <div class="contact-icon"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.15 1.45-2.15 2.94v5.66H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg></div>
+            <div><div class="c-label">LinkedIn</div><div class="c-value">Add profile URL</div></div>
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form glass reveal reveal-delay-1">
+        <form id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="cName">Name</label>
+            <input type="text" id="cName" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-row">
+            <label for="cEmail">Email</label>
+            <input type="email" id="cEmail" name="email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-row">
+            <label for="cSubject">Subject</label>
+            <input type="text" id="cSubject" name="subject" placeholder="What's this about?">
+          </div>
+          <div class="form-row">
+            <label for="cMessage">Message</label>
+            <textarea id="cMessage" name="message" placeholder="Tell me about the opportunity or project…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center">
+            Send Message
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+          <p class="form-note">This form has no backend — submitting opens your email client with the message pre-filled, addressed to ghrairighaith249@gmail.com.</p>
+          <div class="form-success" id="formSuccess"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Opening your email client…</div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============================== FOOTER ============================== -->
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-copy">© <span id="year"></span> Ghaith Ghrairi. Built with HTML, CSS &amp; vanilla JS.</div>
+    <div class="footer-social">
+      <a href="#" data-placeholder-link title="Add your GitHub URL" aria-label="GitHub">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.06 11.06 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.53 10.53 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+      </a>
+      <a href="#" data-placeholder-link title="Add your LinkedIn URL" aria-label="LinkedIn">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.15 1.45-2.15 2.94v5.66H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>
+      </a>
+      <a href="mailto:ghrairighaith249@gmail.com" aria-label="Email">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 6 12 13 2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+      </a>
+    </div>
+    <a href="#hero" class="footer-top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+      Back to top
+    </a>
+  </div>
+</footer>
+
+<button id="back-to-top" class="glass" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+</button>
+
+<!-- ============================== PROJECT MODALS ============================== -->
+
+<!-- Modal: Optical Fiber Tester (full case study) -->
+<div class="modal-overlay" id="modal-fiber" data-modal>
+  <div class="modal">
+    <button class="modal-close glass" data-modal-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <div class="modal-hero"><img src="assets/images/project-fiber.svg" alt="Intelligent optical fiber tester"></div>
+    <div class="modal-body">
+      <span class="tl-date">SAGEMCOM EZZAHRA · END-OF-STUDIES INTERNSHIP · WITH ISMAIL JABRI</span>
+      <h2>Intelligent Optical Fiber Tester</h2>
+      <p class="modal-org">Supervised by M. Habib Smei &amp; M. Faouzi Maddouri (ISET Radès) and M. Anis Mdaini (Sagemcom) · PFE code SEM-26-12</p>
+      <div class="modal-tags">
+        <span class="tag">ESP32</span><span class="tag">Feasa LED Analyzer</span><span class="tag">MAX3232</span><span class="tag">TFT Touch (ILI9488/XPT2046)</span>
+        <span class="tag">EasyEDA PCB</span><span class="tag">Onshape Enclosure</span><span class="tag">MQTT / Node-RED</span><span class="tag">Firebase Realtime DB</span>
+      </div>
+
+      <div class="modal-section">
+        <h4>The problem</h4>
+        <p>On Sagemcom's production lines, LED functional tests route light through optical fibers to a Feasa analyzer instead of contact probes — precise, and able to test several LEDs in tight spaces. But fibers wear and degrade with handling, which distorts the RGB and intensity readings. Operators then blame a "faulty LED" when the real culprit is a damaged fiber, causing false rejects, longer test cycles, and lower line throughput.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Objectives</h4>
+        <ul>
+          <li>Automatically evaluate the condition of a test-bench optical fiber before it's used to qualify a product.</li>
+          <li>Acquire RGB + intensity (RGBI) data from the fiber via the existing Feasa module.</li>
+          <li>Compare live readings against a reference fiber and classify the fiber as conforming or defective.</li>
+          <li>Provide a simple touch interface and a clear visual pass/fail indicator, portable enough for shop-floor use.</li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h4>How it works</h4>
+        <p>An RGB LED module injects red, then green, then blue light into the fiber under test. The Feasa module reads the light that comes through and returns RGBI values over a serial link. The ESP32 compares each channel's measured intensity to a stored reference (Red 6800 · Green 13000 · Blue 13000) within a ±20% tolerance — the fiber passes only if all three channels are within range. A second RGB LED gives an instant visual verdict: green for conforming, red for defective.</p>
+        <p style="margin-top:10px">Two diagnostic modes are available: an <strong style="color:var(--white)">automatic mode</strong> that checks a fiber against the stored reference in one tap, and a <strong style="color:var(--white)">manual mode</strong> that runs a known-good reference fiber on port 1 alongside the fiber under test on port 2, for direct side-by-side comparison.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Hardware architecture</h4>
+        <div class="spec-grid">
+          <div class="spec-item"><span>MCU</span><span>ESP32 WROOM, dual-core, 240MHz</span></div>
+          <div class="spec-item"><span>Analyzer</span><span>Feasa LED Analyzer (RS-232)</span></div>
+          <div class="spec-item"><span>Level shifter</span><span>MAX3232 (RS-232 ↔ TTL)</span></div>
+          <div class="spec-item"><span>Display</span><span>3.5" TFT SPI 480×320, ILI9488 + XPT2046 touch</span></div>
+          <div class="spec-item"><span>Indicators</span><span>2× RGB LED (source + status)</span></div>
+          <div class="spec-item"><span>Power</span><span>5V input, regulated 3.3V (LM235)</span></div>
+        </div>
+      </div>
+
+      <div class="modal-section">
+        <h4>PCB &amp; enclosure</h4>
+        <p>The schematic and routing were done in EasyEDA around a deliberately modular design: the ESP32 sits on pin-header sockets and the MAX3232 on an IC socket, rather than being soldered directly — so either can be swapped without reworking the board. RGB channels are protected with 220Ω series resistors; decoupling capacitors sit close to every supply pin. The finished PCB (103×82mm) was fabricated, hand-soldered, and passed every functional test on first power-up.</p>
+        <p style="margin-top:10px">The enclosure was modeled in Onshape as a two-part 200×125×55mm case: a base holding the PCB, voltage regulator, power jack and ON/OFF switch, and a functional lid cut for the TFT screen, the Feasa module, and a light-guide for the status LED — then 3D printed.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Firmware &amp; software</h4>
+        <ul>
+          <li>Built with <strong style="color:var(--white)">PlatformIO</strong> (Arduino framework) in a modular class structure: interface state machine, Feasa communication, LED control, diagnostic logic, WiFi/MQTT, Firebase, and NTP sync each own their responsibility.</li>
+          <li><strong style="color:var(--white)">LovyanGFX</strong> drives the touch display; <strong style="color:var(--white)">PubSubClient</strong> publishes JSON RGBI + diagnostic payloads to the public HiveMQ broker; <strong style="color:var(--white)">Adafruit NeoPixel</strong> drives both RGB LED modules.</li>
+          <li>A <strong style="color:var(--white)">Node-RED</strong> dashboard subscribes to those MQTT topics and renders live gauges for both optical ports plus the automatic diagnosis.</li>
+          <li>Results can optionally be persisted to <strong style="color:var(--white)">Firebase Realtime Database</strong> over HTTPS (no third-party library — raw <code>HTTPClient</code>/<code>WiFiClientSecure</code>), timestamped via NTP and auto-numbered, toggled by a switch right on the touchscreen.</li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h4>Technical challenge &amp; fix</h4>
+        <p>Early on, the Feasa module simply wouldn't return usable data for the <code>GETRGBI01</code> command. Digging into the protocol showed the module actually needs an initial capture command (<code>"C"</code>) to trigger the photometric acquisition, with a short delay before it's ready — a step that isn't obvious from a first read of the interface. Once the firmware sent <code>C</code>, waited ~2s, then issued <code>GETRGBI01</code>/<code>GETRGBI02</code>, communication became fully reliable over UART2 at 57600 baud (8N1) through the MAX3232 bridge.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Results</h4>
+        <div class="result-grid">
+          <div class="result-card"><div class="r-val">±20%</div><div class="r-label">DIAGNOSTIC TOLERANCE</div></div>
+          <div class="result-card"><div class="r-val">2 modes</div><div class="r-label">AUTO + MANUAL DIAGNOSIS</div></div>
+          <div class="result-card"><div class="r-val">100%</div><div class="r-label">TEST MODULES VALIDATED</div></div>
+          <div class="result-card"><div class="r-val">Live</div><div class="r-label">MQTT + CLOUD LOGGING</div></div>
+        </div>
+        <p style="margin-top:16px">Every subsystem — UART/Feasa communication, the touch UI, both LED modules, WiFi/MQTT publishing, the Node-RED dashboard, and Firebase storage — was tested individually and validated on the assembled PCB, giving Sagemcom's test technicians a fast, reliable way to rule fibers in or out before blaming a product's LEDs.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Skills applied</h4>
+        <ul>
+          <li>End-to-end embedded product development: schematic → PCB → firmware → enclosure → cloud dashboard.</li>
+          <li>Serial protocol reverse-engineering and robust UART communication (RS-232 ↔ TTL).</li>
+          <li>Touchscreen UI development and state-machine-driven interface design.</li>
+          <li>IoT integration: MQTT, Node-RED, REST-based cloud storage, NTP time sync.</li>
+          <li>Structured hardware &amp; software test/validation methodology in an industrial setting.</li>
+        </ul>
+      </div>
+
+      <div class="modal-footer-actions">
+        <a href="#" class="btn btn-primary" data-placeholder-link title="Add your repository link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.06 11.06 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.53 10.53 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+          View on GitHub
+        </a>
+        <a href="#" class="btn btn-ghost" data-placeholder-link title="Add the report PDF to assets/">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          Full Report (PDF)
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: Smart Home Automation -->
+<div class="modal-overlay" id="modal-smarthome" data-modal>
+  <div class="modal">
+    <button class="modal-close glass" data-modal-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <div class="modal-hero"><img src="assets/images/project-smarthome.svg" alt="Smart Home Automation System"></div>
+    <div class="modal-body">
+      <span class="tl-date">PERSONAL / ACADEMIC PROJECT · PROJECT OVERVIEW</span>
+      <h2>Smart Home Automation System</h2>
+      <p class="modal-org">ESP8266/ESP32 · Embedded C</p>
+      <div class="modal-tags"><span class="tag">DHT11</span><span class="tag">MQ Gas Sensor</span><span class="tag">PIR</span><span class="tag">Relay</span><span class="tag">Buzzer</span><span class="tag">WiFi</span></div>
+
+      <div class="modal-section">
+        <h4>Overview</h4>
+        <p>A WiFi-connected home automation and safety controller built around an ESP8266/ESP32, combining automatic door access, environmental monitoring, and intrusion/gas-leak alarms in a single embedded system, programmed in C.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Hardware architecture</h4>
+        <ul>
+          <li>ESP8266 / ESP32 as the central controller with integrated WiFi.</li>
+          <li>DHT11 sensor for temperature and humidity monitoring.</li>
+          <li>MQ-series gas sensor for leak detection.</li>
+          <li>PIR sensor for motion and presence detection.</li>
+          <li>Relay module driving the door actuator; buzzer and status LEDs for alerts.</li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h4>Embedded logic &amp; sensor management</h4>
+        <p>Sensors are polled on a loop: DHT11 readings feed the monitoring/control interface; PIR events both automate the door and, when the system is armed, trigger the intrusion alarm; MQ gas readings are checked against a safety threshold that, when crossed, fires the buzzer, cuts the relay-controlled circuit, and raises a notification — independent of the WiFi connection, so the safety response never depends on connectivity.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Technical challenge &amp; approach</h4>
+        <p>Coordinating several sensor types and actuators on a single low-pin-count board while keeping response fast enough for a believable "automatic door," and keeping gas-threshold detection resistant to false positives. The approach: dedicated handling per sensor, tuned thresholds, and a hard separation between the local safety reaction (buzzer/relay) and the networked reaction (notification/control interface).</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Skills applied</h4>
+        <ul>
+          <li>Multi-sensor embedded system design and actuator control on ESP8266/ESP32.</li>
+          <li>WiFi-enabled home-automation architecture in embedded C.</li>
+          <li>Threshold-based safety logic for gas leak and intrusion detection.</li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <p style="font-size:13px; color:var(--muted-dim)">This is a project overview based on the system's component list and functionality. A full breakdown (like the fiber tester case study) can be added once the detailed report is available.</p>
+      </div>
+
+      <div class="modal-footer-actions">
+        <a href="#" class="btn btn-primary" data-placeholder-link title="Add your repository link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.06 11.06 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.53 10.53 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+          View on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal: RFID Access Control -->
+<div class="modal-overlay" id="modal-rfid" data-modal>
+  <div class="modal">
+    <button class="modal-close glass" data-modal-close aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg></button>
+    <div class="modal-hero"><img src="assets/images/project-rfid.svg" alt="RFID Access Control System"></div>
+    <div class="modal-body">
+      <span class="tl-date">PERSONAL / ACADEMIC PROJECT · PROJECT OVERVIEW</span>
+      <h2>RFID Access Control System</h2>
+      <p class="modal-org">Embedded microcontroller · RFID authentication</p>
+      <div class="modal-tags"><span class="tag">RFID</span><span class="tag">Ultrasonic Sensor</span><span class="tag">LCD</span><span class="tag">Servo</span><span class="tag">Buzzer</span><span class="tag">LED</span></div>
+
+      <div class="modal-section">
+        <h4>Overview</h4>
+        <p>An RFID-based access control terminal that authenticates presented tags, confirms presence with an ultrasonic sensor, and actuates a servo-driven lock while giving real-time feedback on an LCD with buzzer and LED cues.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Architecture &amp; authentication flow</h4>
+        <ul>
+          <li>Ultrasonic sensor detects presence at the access point and wakes the system.</li>
+          <li>RFID reader scans the presented tag and checks its UID against an authorized list.</li>
+          <li>A match drives the servo to unlock, shows "Access Granted" on the LCD, and gives a short beep with a green LED.</li>
+          <li>A mismatch keeps the lock engaged, shows "Access Denied," and gives a longer beep with a red LED.</li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <h4>Security &amp; design notes</h4>
+        <p>Access decisions are made only against the defined authorized-UID list, keeping the lock mechanism independent of any external network dependency. Pairing presence detection with identity authentication avoids leaving the reader continuously active and adds a basic layer of tailgating awareness.</p>
+      </div>
+
+      <div class="modal-section">
+        <h4>Skills applied</h4>
+        <ul>
+          <li>RFID interfacing and UID-based authentication logic.</li>
+          <li>Sensor fusion (presence + identity) for access control.</li>
+          <li>LCD-driven user feedback and servo-based physical actuation.</li>
+        </ul>
+      </div>
+
+      <div class="modal-section">
+        <p style="font-size:13px; color:var(--muted-dim)">This is a project overview based on the system's component list and functionality. A full breakdown (like the fiber tester case study) can be added once the detailed report is available.</p>
+      </div>
+
+      <div class="modal-footer-actions">
+        <a href="#" class="btn btn-primary" data-placeholder-link title="Add your repository link">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.09 3.29 9.4 7.86 10.93.58.1.79-.25.79-.56 0-.27-.01-1.16-.02-2.11-3.2.7-3.88-1.36-3.88-1.36-.52-1.34-1.28-1.7-1.28-1.7-1.05-.72.08-.71.08-.71 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.06 11.06 0 0 1 5.79 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.25 5.67.41.36.78 1.08.78 2.17 0 1.57-.01 2.83-.01 3.22 0 .31.21.67.8.56A10.53 10.53 0 0 0 23.5 12c0-6.35-5.15-11.5-11.5-11.5Z"/></svg>
+          View on GitHub
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
